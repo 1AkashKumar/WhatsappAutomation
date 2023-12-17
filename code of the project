@@ -1,0 +1,9 @@
+#Here is code of the project
+#step 1 is to install pywhatkit library 
+pip install pywhatkit
+#step 2 is to now import pywhatkit library that is build for whatsapp automation and various other tasks
+import pywhatkit
+#step 3 is to use method sendwhatmsg of pywhatkit library
+#it requires some inforamtion 
+#1.MObile number of user #2.what message you wnat to send #3.Time in Hours and Minutes(24hours only)
+pywhatkit.sendwhatmsg("mobile_number with country code","Message","Hour","Minutes")
